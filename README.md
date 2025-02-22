@@ -1,42 +1,27 @@
-<<<<<<< HEAD
-# tech-conference-2015
-=======
-# sv
+# Tech Conference Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Project Setup Instructions  
 
-## Creating a project
+1. **Clone the Repository:**  
+   ```sh
+   git clone https://github.com/madhumathidhonuri/tech-conference.git
+   cd tech-conference
 
-If you're seeing this, you've probably already done this step. Congrats!
+2. **Install Dependencies:**
+   ```sh
+   npm install
 
-```bash
-# create a new project in the current directory
-npx sv create
+3. **Run the Development Server:**
+   ```sh
+   npm run dev
 
-# create a new project in my-app
-npx sv create my-app
-```
+4. **Build for Production:**
+   ```sh
+   npm run build
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
->>>>>>> b84e07d (Initial commit)
+**Features Implemented**
+*Countdown Timer: Displays a real-time countdown to the event.
+*Schedule Filtering: Users can filter sessions by day or track.
+*Sponsor Tiers: Sponsors categorized into Gold, Silver, and Bronze.
+*Google Map Integration: Shows event location with an embedded map.
