@@ -2,13 +2,13 @@
 
 ## Project Setup Instructions  
 
-1. **Clone the Repository:**  
+1. **Install Sveltekit:**  
    ```sh
-   git clone https://github.com/madhumathidhonuri/tech-conference.git
-   cd tech-conference
+   npx sv create tech-conference
 
 2. **Install Dependencies:**
    ```sh
+   cd tech-conference
    npm install
 
 3. **Run the Development Server:**
